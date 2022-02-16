@@ -1,0 +1,16 @@
+1. Buat database baru dengan nama "db_namasiswa" ( ganti dengan nama pendek masing-masing
+
+2. buat struktur tabel dengan desain sebagai berikut :
+--
+-- Struktur dari tabel `tb_barang`
+--
+
+CREATE TABLE `tb_barang` (
+  `kode_barang` varchar(10) NOT NULL,
+  `nama_barang` varchar(100) NOT NULL,
+  `stok` int(11) NOT NULL,
+  `harga_beli` int(11) NOT NULL,
+  `harga_jual` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+3. Tambahkan satu buah record/data ke dalam tabel ( yang di isikan bebas )
